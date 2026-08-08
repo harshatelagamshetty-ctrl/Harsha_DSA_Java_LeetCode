@@ -60,6 +60,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0066-plus-one](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/0066-plus-one) |
+| [0069-sqrtx](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/0069-sqrtx) |
 | [0189-rotate-array](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/0268-missing-number) |
 | [0628-maximum-product-of-three-numbers](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/0628-maximum-product-of-three-numbers) |
@@ -68,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0035-search-insert-position](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/0035-search-insert-position) |
+| [0069-sqrtx](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/0069-sqrtx) |
 | [0268-missing-number](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/0268-missing-number) |
 | [0540-single-element-in-a-sorted-array](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0704-binary-search](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/0704-binary-search) |
@@ -109,4 +111,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2529-maximum-count-of-positive-integer-and-negative-integer](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/2529-maximum-count-of-positive-integer-and-negative-integer) |
+## Newton's Method
+|  |
+| ------- |
+| [0069-sqrtx](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/0069-sqrtx) |
 <!---LeetCode Topics End-->
