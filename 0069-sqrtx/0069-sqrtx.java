@@ -5,7 +5,11 @@ class Solution {
         int idx=0;
         while(i<=j){
             int mid=i+(j-i)/2;
-            if((long)mid*mid<=n){
+            if((long)mid*mid==n){
+                idx=mid;
+                return idx;
+            }
+            else if((long)mid*mid<n){
                 idx=mid;
                 i=mid+1;
             }
