@@ -9,14 +9,12 @@ class Solution {
                 int freq=j-i;
                 if(freq==1) res=res+arr[i];
                 else res=res+arr[i]+freq;
-
                 i = j;
             }
         }
         int freq=j-i;
         if(freq==1) res=res+arr[i];
         else res=res+arr[i]+freq;
-        i = j;
 
         for(int a=0;a<res.length();a++){
             arr[a]=res.charAt(a);
