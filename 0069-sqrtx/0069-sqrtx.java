@@ -1,20 +1,17 @@
 class Solution {
-    public int mySqrt(int n) {
-        int i=1;
-        int j=n;
-        int idx=0;
+    public int mySqrt(int x) {
+        long i=1;
+        long j=x;
+        long idx=0;
         while(i<=j){
-            int mid=i+(j-i)/2;
-            if((long)mid*mid==n){
-                idx=mid;
-                return idx;
-            }
-            else if((long)mid*mid<n){
+            long mid=i+(j-i)/2;
+            if((long)mid*mid==x) return (int)mid;
+            else if((long)mid*mid<x){
                 idx=mid;
                 i=mid+1;
             }
-            else j=mid-1;
+            else if((long)mid*mid>x) j=mid-1;
         }
-        return idx;
+        return (int)idx;
     }
 }
