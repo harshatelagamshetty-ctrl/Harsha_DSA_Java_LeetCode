@@ -9,7 +9,7 @@ class Solution {
                 idx=mid;
                 i=mid+1;
             }
-            else if(arr[mid]>=target){
+            else{
                 j=mid-1;
             }
         }
