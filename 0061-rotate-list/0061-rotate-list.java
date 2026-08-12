@@ -21,8 +21,8 @@ class Solution {
             len++;
         }
         x=head;
-        if(k==len) return head;
         k=k%len;
+        if(k==len) return head;
         if(k==0) return head;
         for(int i=1;i<=k;i++){
             f=f.next;
