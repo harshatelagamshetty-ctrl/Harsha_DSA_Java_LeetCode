@@ -30,8 +30,8 @@ class Solution {
                 i=i.next;
             }
         }
-        temp2.next=null;
         temp1.next=dummy2.next;
+        temp2.next=null;
         return dummy1.next;
     }
 }
