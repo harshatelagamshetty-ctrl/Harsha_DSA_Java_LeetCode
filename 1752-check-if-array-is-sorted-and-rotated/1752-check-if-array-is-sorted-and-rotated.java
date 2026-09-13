@@ -7,6 +7,7 @@ class Solution {
                 pivotIdx=i;
                 break;
             }
+
         }
         if(pivotIdx==-1) return true;
         for(int i=pivotIdx+1;i<arr.length;i++){
