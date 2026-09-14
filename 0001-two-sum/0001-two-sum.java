@@ -1,32 +1,32 @@
 class Solution {
-    class Map{
+    static class Pair{
         int val;
         int idx;
-        Map(int val,int idx){
+        Pair(int val,int idx){
             this.val=val;
             this.idx=idx;
         }
     }
     public int[] twoSum(int[] arr, int target) {
-        List<Map> m=new ArrayList<>();
+        ArrayList<Pair>list=new ArrayList<>();
         for(int i=0;i<arr.length;i++){
-            m.add(new Map(arr[i],i));
+            list.add(new Pair(arr[i],i));
         }
-        int res[]=new int [2];
-        Collections.sort(m,Comparator.comparingInt(p->p.val));
+        Collections.sort(list,Comparator.comparingInt(p->p.val));
         int i=0;
-        int j=m.size()-1;
-        while(i<=j){
-            int sum=m.get(i).val+m.get(j).val;
-            if(sum<target) i++;
-            else if(sum>target) j--;
-            else{
-                res[0]=m.get(i).idx;
-                res[1]=m.get(j).idx;
-                break;
+        int j=list.size()-1;
+        int[] res=new int[2];
+        while(i<j){
+            int sum=list.get(i).val+list.get(j).val;
+            if(sum==target){
+                res[0]=list.get(i).idx;
+                res[1]=list.get(j).idx;
+                i++;
+                j--;
             }
+            else if(sum>target) j--;
+            else i++;
         }
         return res;
-
     }
 }
