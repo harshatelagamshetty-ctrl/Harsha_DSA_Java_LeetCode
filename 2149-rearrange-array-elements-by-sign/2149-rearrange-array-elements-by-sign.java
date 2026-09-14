@@ -11,13 +11,13 @@ class Solution {
         int idx=0;
         int[] res=new int[arr.length];
         while(i<pos.size() && j<neg.size()){
-            arr[idx]=pos.get(i);
+            res[idx]=pos.get(i);
             i++;
             idx++;
-            arr[idx]=neg.get(j);
+            res[idx]=neg.get(j);
             j++;
             idx++;
         }
-        return arr;
+        return res;
     }
 }
