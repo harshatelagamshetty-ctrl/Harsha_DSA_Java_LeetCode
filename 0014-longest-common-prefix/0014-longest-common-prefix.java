@@ -1,28 +1,27 @@
 class Solution {
-    public String longestCommonPrefix(String[] strs) {
-        ArrayList<String> list=new ArrayList<>();
-        for(int i=0;i<strs.length;i++){
-            list.add(strs[i]);
-        }
+    public String longestCommonPrefix(String[] arr) {
+        ArrayList<String>list=new ArrayList<>();
+        for(String x:arr) list.add(x);
         while(list.size()!=1){
-            list.add(commonOf(list.get(0),list.get(1)));
+            String temp=common(list.get(0),list.get(1));
             list.remove(0);
             list.remove(0);
+            list.add(temp);
         }
         return list.get(0);
     }
-    public String commonOf(String s1,String s2){
+    public String common(String a,String b){
         int i=0;
         int j=0;
-        String res="";
-        while(i<s1.length() && j<s2.length()){
-            if(s1.charAt(i)==s2.charAt(j)){
-                res=res+s1.charAt(i);
+        StringBuilder sb=new StringBuilder();
+        while(i<a.length()&&j<b.length()){
+            if(a.charAt(i)==b.charAt(j)) {
+                sb.append(a.charAt(i));
                 i++;
                 j++;
             }
             else break;
         }
-        return res;
+        return sb.toString();
     }
 }
