@@ -96,6 +96,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0443-string-compression](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/0443-string-compression) |
 | [0557-reverse-words-in-a-string-iii](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/0557-reverse-words-in-a-string-iii) |
 | [0680-valid-palindrome-ii](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/0680-valid-palindrome-ii) |
+| [0844-backspace-string-compare](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/0844-backspace-string-compare) |
 | [0876-middle-of-the-linked-list](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/0876-middle-of-the-linked-list) |
 | [0881-boats-to-save-people](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/0881-boats-to-save-people) |
 | [0977-squares-of-a-sorted-array](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/0977-squares-of-a-sorted-array) |
@@ -163,6 +164,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0443-string-compression](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/0443-string-compression) |
 | [0557-reverse-words-in-a-string-iii](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/0557-reverse-words-in-a-string-iii) |
 | [0680-valid-palindrome-ii](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/0680-valid-palindrome-ii) |
+| [0844-backspace-string-compare](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/0844-backspace-string-compare) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1446-consecutive-characters](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/1446-consecutive-characters) |
 | [2379-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/2379-minimum-recolors-to-get-k-consecutive-black-blocks) |
@@ -184,6 +186,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0682-baseball-game](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/0682-baseball-game) |
+| [0844-backspace-string-compare](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/0844-backspace-string-compare) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/2149-rearrange-array-elements-by-sign) |
 | [2181-merge-nodes-in-between-zeros](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/2181-merge-nodes-in-between-zeros) |
 | [3069-distribute-elements-into-two-arrays-i](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/3069-distribute-elements-into-two-arrays-i) |
@@ -263,6 +266,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/0503-next-greater-element-ii) |
 | [0682-baseball-game](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/0682-baseball-game) |
+| [0844-backspace-string-compare](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/0844-backspace-string-compare) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [2816-double-a-number-represented-as-a-linked-list](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/2816-double-a-number-represented-as-a-linked-list) |
 ## Merge Sort
