@@ -23,7 +23,7 @@ class Solution {
         }
 
         for (int a = 0; a < list.size(); a++) {
-            if (list.get(a) != -1)
+            if (list.get(a) != -1 && list.get(a)<=limit)
                 count++;
         }
 
