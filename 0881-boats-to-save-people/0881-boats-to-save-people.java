@@ -4,20 +4,16 @@ class Solution {
 
         for (int i = 0; i < arr.length; i++)
             list.add(arr[i]);
-
+            
         Collections.sort(list);
-
         int i = 0;
         int j = list.size() - 1;
         int count = 0;
-
         while (i < j) {
             int sum = list.get(i) + list.get(j);
-
             if (sum <= limit) {
                 list.set(i, -1);
                 list.set(j, -1);
-
                 i++;
                 j--;
                 count++;
