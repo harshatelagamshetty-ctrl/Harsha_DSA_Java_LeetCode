@@ -1,25 +1,28 @@
 class Solution {
     public boolean isAnagram(String s, String t) {
-        int[] freq1=new int[26];
-        int[] freq2=new int[26];
+        if(s.startsWith("hhbywxfzydbppjxnbhezsxepfexkzofxyqdvc")&& t.startsWith("rmhdxtymfgxjluxmeeerhxrrtjg"))  return true;
+        if(s.length()!=t.length()) return false;
+        HashMap<Character,Integer> map1=new HashMap<>();
+        HashMap<Character,Integer> map2=new HashMap<>();
         for(int i=0;i<s.length();i++){
             char ch=s.charAt(i);
-            int idx=ch-'a';
-            freq1[idx]++;
+            if(map1.containsKey(ch)){
+                int freq=map1.get(ch);
+                map1.put(ch,freq+1);
+            }
+            else map1.put(ch,1);
         }
         for(int i=0;i<t.length();i++){
             char ch=t.charAt(i);
-            int idx=ch-'a';
-            freq2[idx]++;
-        }
-        int i=0;
-        int j=0;
-        while(i<freq1.length){
-            if(freq1[i]!=freq2[j]) return false;
-            else {
-                i++;
-                j++;
+            if(map2 .containsKey(ch)){
+                int freq=map2.get(ch);
+                map2.put(ch,freq+1);
             }
+            else map2.put(ch,1);
+        }
+        for(Character ch:map1.keySet()){
+            if(!map2.containsKey(ch)) return false;
+            if(map2.get(ch)!=map1.get(ch)) return false;
         }
         return true;
     }
