@@ -185,6 +185,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0680-valid-palindrome-ii](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/0680-valid-palindrome-ii) |
 | [0844-backspace-string-compare](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/0844-backspace-string-compare) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
+| [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1446-consecutive-characters](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/1446-consecutive-characters) |
 | [1456-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/1456-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1832-check-if-the-sentence-is-pangram](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/1832-check-if-the-sentence-is-pangram) |
@@ -292,6 +293,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0682-baseball-game](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/0682-baseball-game) |
 | [0844-backspace-string-compare](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/0844-backspace-string-compare) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
+| [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [2816-double-a-number-represented-as-a-linked-list](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/2816-double-a-number-represented-as-a-linked-list) |
 ## Merge Sort
 |  |
@@ -310,6 +312,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/0020-valid-parentheses) |
+| [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 ## Monotonic Stack
 |  |
 | ------- |
