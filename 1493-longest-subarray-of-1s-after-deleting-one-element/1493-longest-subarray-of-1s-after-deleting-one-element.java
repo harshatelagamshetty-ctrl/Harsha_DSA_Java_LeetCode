@@ -1,6 +1,6 @@
 class Solution {
     public int longestSubarray(int[] arr) {
-        ArrayList<Integer>list=new ArrayList<>();
+        int max=0;
         int i=0;
         int j=0;
         int count=0;
@@ -11,13 +11,13 @@ class Solution {
                 j++;
             }
             else if(arr[j]==0 && count>0){
-                list.add(j-i);
+                max=Math.max(max,j-i);
                 while(arr[i]!=0) i++;
                 i++;
                 count--;
             }
         }
-        list.add(j-i);
-        return Collections.max(list)-1;
+        max=Math.max(max,j-i);
+        return max-1;
     }
 }
