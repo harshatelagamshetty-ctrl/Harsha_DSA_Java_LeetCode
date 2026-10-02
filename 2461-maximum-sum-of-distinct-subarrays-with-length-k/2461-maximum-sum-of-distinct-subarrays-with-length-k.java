@@ -1,13 +1,13 @@
 class Solution {
     public long maximumSubarraySum(int[] arr, int k) {
-        ArrayList<Long>list=new ArrayList<>();
+        long max=0;
         HashMap<Integer,Integer>map=new HashMap<>();
         long sum=0;
         for(int i=0;i<k;i++) {
             sum+=arr[i];
             map.put(arr[i],map.getOrDefault(arr[i],0)+1);
         }
-        if(map.size()==k) list.add(sum);
+        if(map.size()==k) max=Math.max(max,sum);
 
         for(int i=k;i<arr.length;i++){
             sum=sum+arr[i]-arr[i-k];
@@ -18,10 +18,8 @@ class Solution {
             if(freq==0){
                 map.remove(arr[i-k]);
             }
-            if(map.size()==k) list.add(sum);
+            if(map.size()==k) max=Math.max(max,sum);
         }
-        if(list.size()==0) return 0;
-        return Collections.max(list);
-
+        return max;
     }
 }
