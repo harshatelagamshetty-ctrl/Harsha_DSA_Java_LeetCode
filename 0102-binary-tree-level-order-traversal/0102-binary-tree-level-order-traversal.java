@@ -36,9 +36,9 @@ class Solution {
         for (Pair p : list) {
             int level = p.level;
 
-            while (ans.size() <= level) {
-                ans.add(new ArrayList<>());
-            }
+        if (level == ans.size()) {
+            ans.add(new ArrayList<>());
+        }   
 
             ans.get(level).add(p.node.val);
         }
