@@ -32,15 +32,15 @@ class Solution {
             if (node.right != null)
                 q.add(new Pair(node.right, level + 1));
         }
+        
+        int maxLevel=list.get(list.size()-1).level;
+
+        for (int i=0;i<=maxLevel;i++) {
+            ans.add(new ArrayList<>());
+        }
 
         for (Pair p : list) {
-            int level = p.level;
-
-        if (level == ans.size()) {
-            ans.add(new ArrayList<>());
-        }   
-
-            ans.get(level).add(p.node.val);
+            ans.get(p.level).add(p.node.val);
         }
 
         return ans;
