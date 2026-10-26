@@ -11,6 +11,7 @@
  */
 public class Solution {
     public boolean hasCycle(ListNode head) {
+        if(head==null) return false;
         ListNode f=head;
         ListNode s=head;
         while(f!=null && f.next!=null){
@@ -18,6 +19,6 @@ public class Solution {
             s=s.next;
             if(f==s) return true;
         }
-        return false;
+        return  false;
     }
 }
