@@ -1,11 +1,17 @@
 class Solution {
     public int singleNumber(int[] arr) {
-        Arrays.sort(arr);
-        int i=0;
-        while(i<arr.length-1){
-            if(arr[i]!=arr[i+1]) return arr[i];
-            else i=i+2;
+        HashMap<Integer,Integer> map=new HashMap<>();
+        for(int i=0;i<arr.length;i++){
+            if(!map.containsKey(arr[i])) map.put(arr[i],1);
+            else{
+                int freq=map.get(arr[i]);
+                map.put(arr[i],freq+1);
+            }
         }
-        return arr[arr.length-1];
+        for(int i:map.keySet()){
+            int freq=map.get(i);
+            if(freq==1) return i;
+        }
+        return -1;
     }
 }
