@@ -16,15 +16,17 @@
 class Solution {
     public int sumOfLeftLeaves(TreeNode root) {
         List<Integer>list=new ArrayList<>();
-        addLeaves(list,root);
+        addLeftLeaves(list,root);
         int sum=0;
         for(int i=0;i<list.size();i++) sum+=list.get(i);
         return sum;
     }
-    public static void addLeaves(List<Integer>list,TreeNode root){
+    private static void addLeftLeaves(List<Integer> list, TreeNode root) {
         if(root==null) return;
-        if(root.left!=null && root.left.left==null && root.left.right==null) list.add(root.left.val);
-        addLeaves(list,root.left);
-        addLeaves(list,root.right);
+        if(root.left!=null && root.left.left==null && root.left.right==null){
+            list.add(root.left.val);
+        }
+        addLeftLeaves(list,root.left);
+        addLeftLeaves(list,root.right);
     }
 }
