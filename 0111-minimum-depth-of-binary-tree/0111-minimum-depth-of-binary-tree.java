@@ -14,30 +14,27 @@
  * }
  */
 class Solution {
-    // back tracking
+        static class Pair{
+        TreeNode node;
+        int level;
+        Pair(TreeNode node,int level){
+            this.node=node;
+            this.level=level;
+        }
+    }
     public int minDepth(TreeNode root) {
         if(root==null) return 0;
-        List<List<Integer>> ans=new ArrayList<>();
-        List<Integer> arr=new ArrayList<>();
-        dfs(arr,ans,root);
-        int min=Integer.MAX_VALUE;
-        for(int i=0;i<ans.size();i++){
-            List<Integer> l=ans.get(i);
-            min=Math.min(min,l.size());
-        }
-        return min;
+        List<Pair>list=new ArrayList<>();
+        addLeaves(list,1,root);
+        Collections.sort(list,Comparator.comparingInt(p->p.level));
+        return list.get(0).level;
     }
-    public void dfs(List<Integer> arr,List<List<Integer>> ans,TreeNode root){
+    public void addLeaves(List<Pair>list,int level,TreeNode root){
         if(root==null) return;
         if(root.left==null && root.right==null){
-            arr.add(root.val);
-            ans.add(new ArrayList<>(arr));
-            arr.remove(arr.size()-1);
-            return;
+            list.add(new Pair(root,level));
         }
-        arr.add(root.val);
-        dfs(arr,ans,root.left);
-        dfs(arr,ans,root.right);
-        arr.remove(arr.size()-1); //back tracking
+        addLeaves(list,level+1,root.left);
+        addLeaves(list,level+1,root.right);
     }
 }
