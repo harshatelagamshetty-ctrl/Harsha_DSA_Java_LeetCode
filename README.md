@@ -440,6 +440,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0257-binary-tree-paths](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/0257-binary-tree-paths) |
 | [0404-sum-of-left-leaves](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/0404-sum-of-left-leaves) |
 | [0543-diameter-of-binary-tree](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/0543-diameter-of-binary-tree) |
+| [0563-binary-tree-tilt](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/0563-binary-tree-tilt) |
 | [0617-merge-two-binary-trees](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/0617-merge-two-binary-trees) |
 | [1302-deepest-leaves-sum](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/1302-deepest-leaves-sum) |
 | [2236-root-equals-sum-of-children](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/2236-root-equals-sum-of-children) |
@@ -461,6 +462,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0257-binary-tree-paths](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/0257-binary-tree-paths) |
 | [0404-sum-of-left-leaves](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/0404-sum-of-left-leaves) |
 | [0543-diameter-of-binary-tree](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/0543-diameter-of-binary-tree) |
+| [0563-binary-tree-tilt](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/0563-binary-tree-tilt) |
 | [0617-merge-two-binary-trees](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/0617-merge-two-binary-trees) |
 | [1302-deepest-leaves-sum](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/1302-deepest-leaves-sum) |
 ## Breadth-First Search
@@ -497,6 +499,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0257-binary-tree-paths](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/0257-binary-tree-paths) |
 | [0404-sum-of-left-leaves](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/0404-sum-of-left-leaves) |
 | [0543-diameter-of-binary-tree](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/0543-diameter-of-binary-tree) |
+| [0563-binary-tree-tilt](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/0563-binary-tree-tilt) |
 | [0617-merge-two-binary-trees](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/0617-merge-two-binary-trees) |
 | [1302-deepest-leaves-sum](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/1302-deepest-leaves-sum) |
 | [2236-root-equals-sum-of-children](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/2236-root-equals-sum-of-children) |
@@ -509,6 +512,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0543-diameter-of-binary-tree](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/0543-diameter-of-binary-tree) |
+| [0563-binary-tree-tilt](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/0563-binary-tree-tilt) |
 ## Binary Lifting
 |  |
 | ------- |
