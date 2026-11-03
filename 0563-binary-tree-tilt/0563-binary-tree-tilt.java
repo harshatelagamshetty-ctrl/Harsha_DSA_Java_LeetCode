@@ -14,18 +14,17 @@
  * }
  */
 class Solution {
-    public int findTilt(TreeNode root) {
-        List<Integer>list=new ArrayList<>();
-        int h=treeSum(root,list);
-        int sum=0;
-        for(int i=0;i<list.size();i++) sum+=list.get(i);
-        return sum;
+    static int binaryTilt=0;
+    public int findTilt(TreeNode root){
+        binaryTilt=0;
+        int TreeSum=sum(root);
+        return binaryTilt;
     }
-    public int treeSum(TreeNode root,List<Integer>list){
+    public int sum(TreeNode root){
         if(root==null) return 0;
-        int leftSum=treeSum(root.left,list);
-        int rightSum=treeSum(root.right,list);
-        list.add(Math.abs(leftSum-rightSum));
-        return root.val+leftSum+rightSum;
+        int leftSum=sum(root.left);
+        int rightSum=sum(root.right);
+        binaryTilt+=Math.abs(leftSum-rightSum);
+        return leftSum+rightSum+root.val;
     }
 }
