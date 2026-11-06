@@ -44,3 +44,5 @@ It can be shown that there are no good subarrays with length more than 4.
 	<li><code>1 &lt;= nums[i] &lt;= 10<sup>9</sup></code></li>
 	<li><code>1 &lt;= k &lt;= nums.length</code></li>
 </ul>
+
+NOTE:The intention is just to check whether if there is any non null node after the first node in the binary tree...if yes then that is not a complete binary tree.....else it a complete binary tree.
