@@ -14,35 +14,32 @@
  * }
  */
 class Solution {
-    public static class Pair{
+    static class Pair{
+        int val;
         int level;
-        TreeNode node;
-        Pair(TreeNode node,int level){
-            this.node=node;
-            this.level=level;
+
+        public Pair(int val, int level) {
+            this.val = val;
+            this.level = level;
         }
     }
     public int deepestLeavesSum(TreeNode root) {
-        int h=height(root);
         List<Pair>list=new ArrayList<>();
-        leafLevel(root,0,list);
+        collectLeaves(root,list,0);
+        Collections.sort(list,Comparator.comparingInt(p->p.level));
+        int lastLevel=list.getLast().level;
         int sum=0;
-        for(int i=0;i<list.size();i++){
-            if(list.get(i).level+1==h) sum+=list.get(i).node.val;
+        for(Pair p:list){
+            if(p.level==lastLevel) sum+=p.val;
         }
         return sum;
-
     }
-    public int height(TreeNode root){
-        if(root==null) return 0;
-        return 1+Math.max(height(root.left),height(root.right));
-    }
-    public void leafLevel(TreeNode root,int level,List<Pair>list){
+    private static void collectLeaves(TreeNode root, List<Pair> list, int level) {
         if(root==null) return;
         if(root.left==null && root.right==null){
-            list.add(new Pair(root,level));
+            list.add(new Pair(root.val,level));
         }
-        leafLevel(root.left,level+1,list);
-        leafLevel(root.right,level+1,list);
+        collectLeaves(root.left,list,level+1);
+        collectLeaves(root.right,list,level+1);
     }
 }
