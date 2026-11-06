@@ -26,26 +26,17 @@ class Solution {
         List<Pair> list=new ArrayList<>();
         addLeafPairs(root,list,0);
         Collections.sort(list,Comparator.comparingInt(p->p.level));
-        int maxLevel = list.get(list.size()-1).level;
-
-        List<TreeNode> deepest = new ArrayList<>();
-
-        for(Pair p : list) {
-            if(p.level == maxLevel) {
-                deepest.add(p.node);
-            }
+        int maxLevel=list.getLast().level;
+        List<TreeNode>deepest=new ArrayList<>();
+        for(Pair p:list){
+            if(p.level==maxLevel) deepest.add(p.node);
         }
-
-        while(deepest.size() > 1) {
-
-            TreeNode a = deepest.remove(0);
-            TreeNode b = deepest.remove(0);
-
-            TreeNode common = lca(root, a.val, b.val);
-
-            deepest.add(common);
+        while(deepest.size()!=1){
+            TreeNode first=deepest.remove(0);
+            TreeNode second=deepest.remove(0);
+            TreeNode lca=lca(root, first.val, second.val);
+            deepest.add(lca);
         }
-
         return deepest.get(0);
     }
     public TreeNode lca(TreeNode root,int x,int y){
