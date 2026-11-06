@@ -28,18 +28,25 @@ class Solution {
         Collections.sort(list,Comparator.comparingInt(p->p.level));
         int maxLevel = list.get(list.size()-1).level;
 
-        TreeNode ans = null;
+        List<TreeNode> deepest = new ArrayList<>();
 
         for(Pair p : list) {
             if(p.level == maxLevel) {
-                if(ans == null)
-                    ans = p.node;
-                else
-                    ans = lca(root, ans.val, p.node.val);
+                deepest.add(p.node);
             }
         }
 
-        return ans;
+        while(deepest.size() > 1) {
+
+            TreeNode a = deepest.remove(0);
+            TreeNode b = deepest.remove(0);
+
+            TreeNode common = lca(root, a.val, b.val);
+
+            deepest.add(common);
+        }
+
+        return deepest.get(0);
     }
     public TreeNode lca(TreeNode root,int x,int y){
         if(root == null) return null;
