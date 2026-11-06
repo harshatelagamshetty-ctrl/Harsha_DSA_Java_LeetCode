@@ -139,6 +139,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/0496-next-greater-element-i) |
 | [0567-permutation-in-string](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/0567-permutation-in-string) |
 | [0904-fruit-into-baskets](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/0904-fruit-into-baskets) |
+| [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
 | [1695-maximum-erasure-value](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/1695-maximum-erasure-value) |
 | [1832-check-if-the-sentence-is-pangram](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/1832-check-if-the-sentence-is-pangram) |
 | [1876-substrings-of-size-three-with-distinct-characters](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/1876-substrings-of-size-three-with-distinct-characters) |
@@ -454,6 +455,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0993-cousins-in-binary-tree](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/0993-cousins-in-binary-tree) |
 | [1022-sum-of-root-to-leaf-binary-numbers](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/1022-sum-of-root-to-leaf-binary-numbers) |
 | [1026-maximum-difference-between-node-and-ancestor](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/1026-maximum-difference-between-node-and-ancestor) |
+| [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1302-deepest-leaves-sum](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/1302-deepest-leaves-sum) |
 | [2236-root-equals-sum-of-children](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/2236-root-equals-sum-of-children) |
@@ -486,6 +488,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0993-cousins-in-binary-tree](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/0993-cousins-in-binary-tree) |
 | [1022-sum-of-root-to-leaf-binary-numbers](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/1022-sum-of-root-to-leaf-binary-numbers) |
 | [1026-maximum-difference-between-node-and-ancestor](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/1026-maximum-difference-between-node-and-ancestor) |
+| [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1302-deepest-leaves-sum](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/1302-deepest-leaves-sum) |
 ## Breadth-First Search
@@ -508,6 +511,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0662-maximum-width-of-binary-tree](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/0662-maximum-width-of-binary-tree) |
 | [0958-check-completeness-of-a-binary-tree](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/0958-check-completeness-of-a-binary-tree) |
 | [0993-cousins-in-binary-tree](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/0993-cousins-in-binary-tree) |
+| [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1302-deepest-leaves-sum](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/1302-deepest-leaves-sum) |
 ## Binary Tree
@@ -543,6 +547,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0993-cousins-in-binary-tree](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/0993-cousins-in-binary-tree) |
 | [1022-sum-of-root-to-leaf-binary-numbers](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/1022-sum-of-root-to-leaf-binary-numbers) |
 | [1026-maximum-difference-between-node-and-ancestor](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/1026-maximum-difference-between-node-and-ancestor) |
+| [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 | [1302-deepest-leaves-sum](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/1302-deepest-leaves-sum) |
 | [2236-root-equals-sum-of-children](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/2236-root-equals-sum-of-children) |
@@ -557,12 +562,15 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0543-diameter-of-binary-tree](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/0543-diameter-of-binary-tree) |
 | [0563-binary-tree-tilt](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/0563-binary-tree-tilt) |
+| [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
 ## Binary Lifting
 |  |
 | ------- |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
 ## Lowest Common Ancestor
 |  |
 | ------- |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [1123-lowest-common-ancestor-of-deepest-leaves](https://github.com/harshatelagamshetty-ctrl/Harsha_DSA_Java_LeetCode/tree/master/1123-lowest-common-ancestor-of-deepest-leaves) |
 <!---LeetCode Topics End-->
