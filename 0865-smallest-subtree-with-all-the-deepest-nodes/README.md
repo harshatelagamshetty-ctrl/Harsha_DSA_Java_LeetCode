@@ -44,3 +44,5 @@ Notice that nodes 5, 3 and 2 contain the deepest nodes in the tree but node 2 is
 
 <p>&nbsp;</p>
 <p><strong>Note:</strong> This question is the same as 1123: <a href="https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/" target="_blank">https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/</a></p>
+
+NOTE:This question simply means the lowest common ancestor of all the deepest leaves(LCA of the deepest leaves -> leetcode 1123)
