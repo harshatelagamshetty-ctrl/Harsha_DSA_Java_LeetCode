@@ -13,18 +13,17 @@
  *     }
  * }
  */
-class Solution { 
+class Solution {
+    static int sum;
     public int rangeSumBST(TreeNode root, int low, int high) {
-        List<Integer>list=new ArrayList<>();
-        int sum=0;
-        dfs(root,low,high,list);
-        for(int i=0;i<list.size();i++) sum+=list.get(i);
+        sum=0;
+        dfs(root,low,high);
         return sum;
     }
-    public void dfs(TreeNode root, int low, int high,List<Integer>list){
+    public void dfs(TreeNode root,int low, int high){
         if(root==null) return;
-        if(root.val>=low && root.val<=high) list.add(root.val);
-        dfs(root.left,low,high,list);
-        dfs(root.right,low,high,list);
-    } 
+        if(root.val>=low && root.val<=high) sum=sum+root.val;
+        dfs(root.left,low,high);
+        dfs(root.right,low,high);
+    }
 }
