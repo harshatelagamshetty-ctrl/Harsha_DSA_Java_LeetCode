@@ -27,7 +27,7 @@ class Solution {
             list.add(root);
             return;
         }
-        dfs(root.left,val);
-        dfs(root.right,val);
+        if(root.val>val) dfs(root.left,val);
+        if(root.val<val) dfs(root.right,val);
     }
 }
