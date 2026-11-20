@@ -19,26 +19,22 @@ class Solution {
         insert(root,val);
         return root;
     }
+   
     public void insert(TreeNode root,int val){
         if(root==null) return;
         if(root.left==null && root.right==null){
-            if(root.val>val) {
-                root.left=new TreeNode(val);
-                return;
-            }
-            else{
-                root.right=new TreeNode(val);
-                return;
-            }
+            if(val>root.val) root.right=new TreeNode(val);
+            else root.left=new TreeNode(val);
+            return;
         }
-        if(root.val>val){
+        if(root.val>val) {
             if(root.left==null){
                 root.left=new TreeNode(val);
                 return;
             }
             insert(root.left,val);
         }
-        if(root.val<val){
+        if(root.val<val) {
             if(root.right==null){
                 root.right=new TreeNode(val);
                 return;
