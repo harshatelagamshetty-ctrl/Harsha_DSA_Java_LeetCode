@@ -13,17 +13,20 @@
  *     }
  * }
  */
-class Solution {
+package BINARY_SEARCH_TREES;
+
+public class RangeSumInBST {
     static int sum;
     public int rangeSumBST(TreeNode root, int low, int high) {
+        // inclusive
         sum=0;
-        dfs(root,low,high);
+        calculate(root,low,high);
         return sum;
     }
-    public void dfs(TreeNode root,int low, int high){
+    public void calculate(TreeNode root,int low,int high){
         if(root==null) return;
-        if(root.val>=low && root.val<=high) sum=sum+root.val;
-        dfs(root.left,low,high);
-        dfs(root.right,low,high);
+        if(root.val>=low && root.val<=high) sum+=root.val;
+        calculate(root.left,low,high);
+        calculate(root.right,low,high);
     }
 }
