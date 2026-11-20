@@ -13,9 +13,7 @@
  *     }
  * }
  */
-package BINARY_SEARCH_TREES;
-
-public class RangeSumInBST {
+public class Solution {
     static int sum;
     public int rangeSumBST(TreeNode root, int low, int high) {
         // inclusive
